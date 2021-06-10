@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>C.A.R.M.A. | Mision</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logos/carmalsl.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="inner-width">
+        <a href="index.html" class="logo"><img src="img/logos/carmalsl.png" alt=""></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+          <a href="index.html"><i class="fas fa-home home"></i> Home</a>
+          <a href="team.html"><i class="fas fa-users team"></i> Team</a>
+          <a href="contact.html"><i class="fas fa-headset contact"></i> Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      $(".menu-toggle-btn").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+      });
+    </script>
+
+    
+  </body>
+</html>

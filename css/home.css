@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+
+a,a:link,a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+}
+
+.titulo h1{
+  display: inline-block;
+  border-bottom: 4px solid #0984e3;
+  padding-bottom: 5px;
+  margin-top: 80px;
+}
+
+.titulo a{
+  padding: 10px;
+}
+
+.cen{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.service {
+  display: inline-block;
+  border-radius: 14px;
+  width: calc(100% / 3);
+  margin: 10px -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.service:hover {
+  background: #1e272e;
+}
+
+.service i{
+  color: #0984e3;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.service h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.service p {
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width:800px) {
+  .service {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .service {
+    width: 100%;
+  }
+}
+
+.faq { 
+  text-align: center;
+}
+
+.faq h1{
+  background-color: #0984e3;
+  color: white;
+  padding: 17px;
+  font-size: 50px;
+}
+
+.pregunta {
+  padding-top: 30px;
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+
+.pregunta h2{
+  font-size: 40px;
+}
+
+.pregunta p{
+  font-size: 20px;
+}
